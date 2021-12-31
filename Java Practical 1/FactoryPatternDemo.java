@@ -20,7 +20,11 @@ public class FactoryPatternDemo {
          //call draw method of rectangle
          shape2.draw();
 
-         //get an object 
+         //get an object of Square and call its draw method.
+         Shape shape3 = shapeFactory.getShape("Sqaure");
+
+         //call draw method of square
+         shape3.draw();
      }
 
 }
