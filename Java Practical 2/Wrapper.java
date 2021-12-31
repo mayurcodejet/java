@@ -4,4 +4,7 @@ public class Wrapper implements Packing {
     public String pack() {
         return "Wrapper";
     }
+
+    @Override
+    public abstract float price();
 }
